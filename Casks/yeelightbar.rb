@@ -1,6 +1,6 @@
 cask "yeelightbar" do
-  version "1.2.0"
-  sha256 "72443ffb4ea9e4844d4ebcd452198dcf36ad26da2ef4e28bf4fcd4cca1b4e2d7"
+  version "1.3.0"
+  sha256 "b14b71f338245521cb3f73fe4d17ea3b2d0a8c8b223f09a90e7e03e2e080f449"
 
   url "https://github.com/bekircem/YeelightBar/releases/download/v#{version}/YeelightBar-#{version}.dmg"
   name "YeelightBar"
@@ -9,7 +9,7 @@ cask "yeelightbar" do
 
   auto_updates true
 
-  depends_on macos: :ventura
+  depends_on macos: :tahoe
 
   app "YeelightBar.app"
 
