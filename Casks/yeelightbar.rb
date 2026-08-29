@@ -1,6 +1,6 @@
 cask "yeelightbar" do
-  version "1.3.0"
-  sha256 "b14b71f338245521cb3f73fe4d17ea3b2d0a8c8b223f09a90e7e03e2e080f449"
+  version "1.3.1"
+  sha256 "6170591c150b7b348bde48694551e4441a6dec63076b40c83808dff11cd17fb5"
 
   url "https://github.com/bekircem/YeelightBar/releases/download/v#{version}/YeelightBar-#{version}.dmg"
   name "YeelightBar"
