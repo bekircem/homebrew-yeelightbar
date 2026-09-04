@@ -8,13 +8,13 @@ This is the official Homebrew tap for [YeelightBar](https://github.com/bekircem/
 brew install --cask bekircem/yeelightbar/yeelightbar
 ```
 
-YeelightBar requires macOS Ventura 13 or later and supports Apple Silicon and Intel Macs.
+YeelightBar requires macOS Tahoe 26 or later and supports Apple Silicon and Intel Macs.
 
 ## Update
 
 ```sh
 brew update
-brew upgrade --cask yeelightbar
+brew upgrade --cask --greedy-auto-updates yeelightbar
 ```
 
 ## Uninstall
